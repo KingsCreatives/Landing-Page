@@ -1,0 +1,24 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Basically creating this landing page to get hands-on experience with Tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./styles.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./styles.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kwamecody/Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kwamecody/Landing-Page/issues"
+  },
+  "homepage": "https://github.com/Kwamecody/Landing-Page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
