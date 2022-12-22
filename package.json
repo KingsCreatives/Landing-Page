@@ -4,8 +4,10 @@
   "description": "Basically creating this landing page to get hands-on experience with Tailwind css",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./styles.css -o ./css/main.css",
-    "watch": "tailwindcss -i ./styles.css -o ./css/main.css --watch"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./styles.css -o ./tailwind.css",
+    "watch": "tailwindcss -i ./styles.css -o ./tailwind.css --watch"
+
   },
   "repository": {
     "type": "git",
