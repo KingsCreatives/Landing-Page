@@ -23,6 +23,21 @@
                 <a href="#" class="hover:text-darkGrayishBlue">Community</a>
             </div>
             <a href="#" class="hidden md:block p-3 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a>
+            <!--Hamburger menu-->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-buttom"></span>
+            </button>
+        </div>
+        <div class="md:hidden">
+            <div id="menu" class=" flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-lg">
+                <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+                <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+            </div>
         </div>
     </nav>
     <!--Hero Section-->
@@ -135,7 +150,7 @@
         </div>
     </div>  
     <!--Call to action section-->
-    <div class="bg-brightRed">
+    <div class="bg-brightRed" id="cta">
         <!--Action wrapper-->
         <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
             <!--Heading-->
@@ -197,12 +212,12 @@
                 <input type="text" class="flex-1 px-6 py-2 rounded-full focus:outline-none" placeholder="Get weekly updates">
                 <button class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none md:mt-2">Go</button>
             </form>
-            <div class="hidden text-white md:block">
+            <div class="hidden text-white md:block md:pt-4">
                 CopyRight &copy; 2022 All Rights Reserved
             </div>
         </div>
     </div>
 </footer>
-
+<script src="./script.js"></script>
 </body>
 </html>
